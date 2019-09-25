@@ -1,0 +1,32 @@
+<building>
+    <room name="arenaSingle">
+     <Background x="0" y="0" />
+        <EnemyHandler/>
+        <Player x="740" y="c" number="1"/>
+        <Text x="5" y="5" font="Querround16" text="Score: 0"/>
+        <Player x="740" y="c" number="1"/>
+              
+
+    </room>
+    <room name="arenaDouble">
+        <Background x="0" y="0" />
+        <EnemyHandler/>
+        <Player x="740" y="100" number="1"/>
+        <Player x="740" y="368" number="2"/>
+        <Text x="5" y="5" font="Querround16" text="Score: 0"/>
+        
+    
+    </room>
+    <room name="menu">
+        <Background x="0" y="0" />
+            <Text x="300" y="10" font= "Title" text= "Halloween Hunter" color="(0,255,0)"/>
+
+        <Button x="c" y="560" w="500" h="30" supplementary="1" text="Single Player" font="Querround16"/>
+        <Button x="c" y="600" w="500" h="30" supplementary="2" text="Multi Player" font="Querround16"/>
+        <Button x="c" y="640" w="500" h="30" supplementary="3" text="Quit" font="Querround16"/>
+        
+    </room>
+    <room name="gameover">
+        <Gameover x="0" y="0" />        
+    </room>
+</building>
